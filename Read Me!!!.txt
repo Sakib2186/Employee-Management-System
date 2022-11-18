@@ -1,0 +1,79 @@
+**********TO RUN**********
+To the run the prgram, click the RUN.jar
+
+If RUN.java fails to execute, simply load the project file on eclipse, and then
+right click the imported project folder >  Run As > 1 Java Application > select LoginFrame - e3.Classes 
+and then hit ok. The application should run.
+
+If during logging in the program says "File Not Found", 
+try again. Should work next time.
+
+**********SYSTEM REQUIREMENT**********
+
+Windows 7 or later
+Memory- atleast 4GB
+
+JDK-8 or later
+
+if you run on eclipse might need version,
+->java.runtime.version=18.0.1.1+2-6
+
+***********THINGS TO KNOW*************
+1)
+
+You can find the login information file, admin information file and employee
+information file in file directory,
+
+EMS/e3/Datas
+
+2)
+
+To log into the application as admin just choose one of the ID from the 
+LoginInfo.txt. The password would be the immediate next word after the ID you chose.
+
+If you choose an ID ending with 630, then it is of an Admin and you would interract as an 
+Admin as well.
+
+If you choose an ID ending with 128, then it is of an Employee and you would interract as an
+Employee.
+
+3)
+
+ID must be of 8 digits. So when you are registering a new Admin or a new Employee into the system, be 
+sure to make the ID 8 digits including the last three necessary digits.
+
+For adding new admin, you have to manually give the last three digits as 630 and for adding new
+employee you have to manually give the last three digits as 128.
+
+
+4)
+
+When you are adding the First and Last name for both the Employee and the Admin, be sure
+to write them as a single word.
+Example,
+First Name: Sakib  
+Last Name: Sami
+
+Don't do:
+First Name: Siam Ul 
+Last Name: Alam
+
+If you need to give a long First Name or Last Name, enter name like
+First Name: Siam-Ul
+Last Name: Alam
+
+just use hyphen 
+
+5) 
+
+When you are adding the address of an Employee, don't give any space between consecutive words,
+rather separate them with commas.
+
+Example: House-190,Road-20,Block-C,Pallabi,Mirpur,Dhaka,Bangladesh
+
+********************************
+
+
+
+
+
